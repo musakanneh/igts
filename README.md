@@ -1,25 +1,4 @@
-# igts
+# Internet Generation Technology Solutions
+The Internet Generation Technology Solutions (IGTS) is building 100 full-stack software engineers in Liberia by 2023 through the "techaware" fellowship program that will use ICT for sustainable development.
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# igts
+PS: Web dev in progress... 
