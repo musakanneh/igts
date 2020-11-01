@@ -17,7 +17,7 @@
         <div>
           <img src="../assets/circle.png" alt="" />
           <h2>
-            Digital Literacy Program
+            ICT Help Clinic
           </h2>
           <p>
             One-stop-shop center established to provide top-notch and executive
@@ -29,7 +29,7 @@
         <div>
           <img src="../assets/circle.png" alt="" />
           <h2>
-            Digital Literacy Program
+            Online Merchandising
           </h2>
           <p>
             IGTS engages into online and e-commerce business networking and
