@@ -24,7 +24,7 @@
             ICT and tech/digital consultancies to individuals, INGOs/NGOs,
             businesses and more
           </p>
-            <a href="">Discover</a>
+          <a href="">Discover</a>
         </div>
         <div>
           <img src="../assets/circle.png" alt="" />
@@ -36,7 +36,7 @@
             trade. We work with cooperatives, trade unions, and business groups
             to facillitate markt expousre.
           </p>
-            <a href="">Discover</a>
+          <a href="">Discover</a>
         </div>
       </section>
     </main>
@@ -75,9 +75,9 @@ body {
           line-height: 20px;
           margin: auto;
         }
-        a{
-            text-decoration: none;
-            font-size: 12px;
+        a {
+          text-decoration: none;
+          font-size: 12px;
         }
       }
     }
