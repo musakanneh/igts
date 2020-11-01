@@ -58,6 +58,7 @@ export default {};
 <style lang="scss" scoped>
 body {
   main {
+      padding-bottom: 5%;
     img {
       width: 50%;
     }
