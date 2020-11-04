@@ -56,7 +56,7 @@ body {
 
     section {
       justify-content: space-between;
-      width: 90%;
+      width: 85%;
       padding-top: 40px;
       display: flex;
       margin: auto;
@@ -68,16 +68,44 @@ body {
 
       div {
         text-align: center;
+        margin: 0 10px;
+        padding: 20px 0;
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+        cursor: pointer;
 
         p {
-          font-size: 12px;
+          font-size: 13px;
+          color: #303030;
           width: 80%;
           line-height: 20px;
+          padding-bottom: 10px;
           margin: auto;
         }
         a {
           text-decoration: none;
+          font-size: 14px;
+          padding: 5px 10px;
+          cursor: pointer;
+          background-color: #3b85fc;
+          box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+          border-radius: 3px;
+          font-style: normal;
+          font-weight: 500;
           font-size: 12px;
+          line-height: 18px;
+          color: #fff;
+          &:hover {
+            background-color: #3b85fc;
+            transition: 0.5s ease;
+          }
+        }
+        &:hover {
+          box-shadow: 0px 6px 20px rgba(107, 117, 201, 0.342);
+          transition: 1s ease;
+          h2 {
+            color: #3b85fc;
+            transition: 0.5s ease;
+          }
         }
       }
     }

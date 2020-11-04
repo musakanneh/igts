@@ -17,7 +17,7 @@
           <div class="view-services">
             <a href="">View Services</a>
           </div>
-          <div><a href="">Learn more</a></div>
+          <div class="view-services2"><a href="">Learn more</a></div>
         </section>
       </article>
     </main>
@@ -66,17 +66,16 @@ body {
     }
 
     p {
-      color: white;
+      color: #fbfbfb;
       line-height: 30px;
       padding: 20px 0;
-      color: #fbfbfb;
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 400;
     }
 
     h1 {
-      font-size: 30px;
-      color: #fff;
+      font-size: 35px;
+      color: #fbfbfb;
       text-align: center;
       font-weight: 600;
       transition: 200ms;
@@ -86,15 +85,35 @@ body {
     section {
       width: 30%;
       margin: auto;
+      justify-content: space-between;
       display: flex;
+
+      .view-services2 {
+        cursor: pointer;
+        border: 1px solid #3b85fc;
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+        border-radius: 3px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #fff;
+        &:hover {
+          background-color: #3b85fc;
+          transition: 0.5s ease;
+        }
+      }
 
       .view-services {
         background-color: #3b85fc;
-
-        &:hover {
-          background: blue;
-          border: 1px solid blue;
-        }
+        cursor: pointer;
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+        border-radius: 3px;
+        border: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        color: #fff;
       }
 
       div {
