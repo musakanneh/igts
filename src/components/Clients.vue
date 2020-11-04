@@ -37,6 +37,7 @@
               commodo ligula eget dolor.
             </small>
           </div>
+
           <div>
             <img src="../assets/case.png" alt="" />
             <h4>
@@ -58,6 +59,11 @@
             </small>
           </div>
         </section>
+        <Button
+          :isFullWidth="false"
+          label="Explore more"
+          width="150px"
+        ></Button>
       </article>
     </main>
     <section class="learn-more-sec">
@@ -81,13 +87,23 @@
           felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
           consequat massa quis enim.
         </p>
+        <Button
+          :isFullWidth="false"
+          label="Explore more"
+          width="150px"
+        ></Button>
       </div>
     </section>
   </body>
 </template>
 
 <script>
-export default {};
+import Button from "../components/Button.vue";
+export default {
+  components: {
+    Button,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -112,7 +128,7 @@ body {
       }
 
       small {
-        font-size: 12px;
+        font-size: 14px;
       }
     }
   }
@@ -124,18 +140,21 @@ body {
 
     article {
       width: 80%;
-      padding: 4% 7%;
+      padding: 2% 7%;
       background-color: #e0ecfd;
 
       h2 {
-        font-size: 20px;
-        padding: 10px 0;
+        font-size: 30px;
         color: #3b85fc;
+        padding-bottom: 10px;
+        font-weight: 600;
+        transition: 200ms;
+        white-space: nowrap;
       }
 
       p {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 14px;
+        line-height: 20px;
       }
     }
 
@@ -150,8 +169,12 @@ body {
     margin: auto;
 
     h2 {
-      padding: 10px 0;
+      padding: 8px 0;
       color: #3b85fc;
+      font-size: 35px;
+      font-weight: 600;
+      transition: 200ms;
+      white-space: nowrap;
     }
 
     p {

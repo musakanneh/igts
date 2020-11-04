@@ -14,10 +14,14 @@
         </p>
 
         <section>
-          <div class="view-services">
-            <a href="">View Services</a>
+          <Button
+            :isFullWidth="false"
+            label="Explore more"
+            width="150px"
+          ></Button>
+          <div class="view-services2">
+            <a href="">Explore</a>
           </div>
-          <div class="view-services2"><a href="">Learn more</a></div>
         </section>
       </article>
     </main>
@@ -25,8 +29,11 @@
 </template>
 
 <script>
+import Button from "../components/Button.vue";
 export default {
-  components: {},
+  components: {
+    Button,
+  },
 };
 </script>
 
@@ -83,48 +90,30 @@ body {
     }
 
     section {
-      width: 30%;
+      width: 35%;
       margin: auto;
       justify-content: space-between;
       display: flex;
 
       .view-services2 {
+        padding: 10px;
         cursor: pointer;
         border: 1px solid #3b85fc;
         box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
         border-radius: 3px;
+        width: 40%;
         font-style: normal;
         font-weight: 500;
-        font-size: 15px;
-        line-height: 18px;
-        color: #fff;
-        &:hover {
-          background-color: #3b85fc;
-          transition: 0.5s ease;
-        }
-      }
-
-      .view-services {
-        background-color: #3b85fc;
-        cursor: pointer;
-        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
-        border-radius: 3px;
-        border: none;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        color: #fff;
-      }
-
-      div {
-        border: 1px solid #0073b1;
-        padding: 8px 10px;
-        font-size: 12px;
-        margin: 10px;
+        font-size: 16px;
 
         a {
           color: #fff;
+          height: 45px;
           text-decoration: none;
+        }
+        &:hover {
+          background: #3b85fc;
+          transition: 1s ease;
         }
       }
     }
