@@ -1,10 +1,15 @@
 <template>
   <body>
     <main>
-      <h1>Our Dedicated Team</h1>
+      <Caption captions="Our Dedicated Team"></Caption>
+      <p>
+        We are a diverse team with different backgrounds but brought together by
+        <br />
+        a shared passion - to make a difference in Liberia!
+      </p>
       <section>
         <div>
-          <img src="../assets/kanneh.png" alt="" />
+          <img src="../assets/ED.png" alt="" />
           <h2>
             Arthur Wahwehele
           </h2>
@@ -13,7 +18,7 @@
           </p>
         </div>
         <div>
-          <img src="../assets/kanneh.png" alt="" />
+          <img src="../assets/Bako.png" alt="" />
           <h2>
             Bako Shaiabu
           </h2>
@@ -22,7 +27,7 @@
           </p>
         </div>
         <div>
-          <img src="../assets/kanneh.png" alt="" />
+          <img src="../assets/Musa.png" alt="" />
           <h2>
             Musa Kanneh
           </h2>
@@ -31,7 +36,7 @@
           </p>
         </div>
         <div>
-          <img src="../assets/kanneh.png" alt="" />
+          <img src="../assets/Boima.png" alt="" />
           <h2>
             Boima Konneh
           </h2>
@@ -45,7 +50,10 @@
 </template>
 
 <script>
-export default {};
+import Caption from "@/components/Caption.vue";
+export default {
+  components: { Caption },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -78,7 +86,7 @@ body {
     }
 
     img {
-      width: 40%;
+      width: 60%;
       border-radius: 50%;
     }
 

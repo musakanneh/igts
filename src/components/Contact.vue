@@ -1,10 +1,7 @@
 <template>
   <body>
     <main>
-      <h1>
-        Lorem ipsum dolor sit amet eam <br />
-        quas malorum accusam
-      </h1>
+      <Caption captions="Lorem ipsum dolor sit amet eam "></Caption>
       <p>
         Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no
         suscipit quaerendum. <br />
@@ -20,14 +17,18 @@
 </template>
 
 <script>
-export default {};
+import Caption from "@/components/Caption.vue";
+export default {
+  components: { Caption },
+};
 </script>
 
 <style lang="scss" scoped>
 body {
   text-align: center;
+  background-color: #fbfbfb;
   main {
-    padding-bottom: 10%;
+    padding: 5%;
     h1 {
       width: 50%;
       font-size: 20px;
