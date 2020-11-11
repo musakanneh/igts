@@ -3,7 +3,7 @@
     <main>
       <h1>What We Offer</h1>
       <section>
-        <div>
+        <div class="offers">
           <img src="../assets/case.png" alt="" />
           <h2>
             Digital Literacy Program
@@ -15,7 +15,7 @@
           </p>
           <a href="">Discover</a>
         </div>
-        <div>
+        <div class="offers">
           <img src="../assets/circle.png" alt="" />
           <h2>
             ICT Help Clinic
@@ -27,7 +27,7 @@
           </p>
           <a href="">Discover</a>
         </div>
-        <div>
+        <div class="offers">
           <img src="../assets/circle.png" alt="" />
           <h2>
             Online Merchandising
@@ -79,25 +79,27 @@ body {
 
     section {
       justify-content: space-between;
-      width: 85%;
+      width: 100%;
       padding-top: 40px;
       display: flex;
       margin: auto;
 
       h2 {
-        font-size: 14px;
+        font-size: 15px;
         padding: 10px;
       }
 
-      div {
+      .offers {
         text-align: center;
         margin: 0 10px;
         padding: 20px 0;
+        border-radius: 5px;
+        width: 30%;
         box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
         cursor: pointer;
 
         p {
-          font-size: 13px;
+          font-size: 14px;
           color: #303030;
           width: 80%;
           line-height: 20px;

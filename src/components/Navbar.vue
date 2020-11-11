@@ -46,7 +46,7 @@ header {
   position: -webkit-sticky !important;
   position: sticky !important;
   top: 0;
-  background: linear-gradient(-90deg, #ff0000, #3b85fc);
+  background: linear-gradient(-90deg, #9b2b2b, #3b85fc);
   height: 60px;
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);

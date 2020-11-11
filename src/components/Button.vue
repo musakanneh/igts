@@ -54,7 +54,7 @@ export default {
 
 .main-button {
   border: none;
-  background: linear-gradient(-90deg, #ff0000, #3b85fc);
+  background: #3b85fc;
   border-radius: 5px;
   font-size: 18px;
   height: 45px;
@@ -68,7 +68,7 @@ export default {
 
 .main-button:hover {
   background: #3b85fc;
-  transition: 1s ease;
+  transition: 0.5s ease;
   color: #ffffff;
 }
 
