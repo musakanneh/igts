@@ -4,7 +4,7 @@
       <a href="/"><img class="logo" src="../assets/logo.jpg" alt="" /></a>
       <ul class="nav-side-items">
         <li>
-          <a class="drop-down-liks">Our Services</a>
+          <a href="/services" class="drop-down-liks">Our Services</a>
         </li>
         <li class="drop-down-liks">
           <a class="drop-down-liks"> Our Work</a>

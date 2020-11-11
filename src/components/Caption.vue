@@ -19,7 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 h1 {
-  width: 50%;
+  // width: 50%;
   padding: 35px 0;
   margin: auto;
   font-size: 35px;
