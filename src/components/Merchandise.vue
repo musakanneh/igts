@@ -1,50 +1,50 @@
 <template>
   <body>
     <main>
-      <h1>Get Our Merchandice</h1>
-      <br />
+      <Caption captions="Get Our Merchandice"></Caption>
       <section>
         <div class="merchandise-card">
-          <img src="../assets/router.png" alt="" />
-
-          <p>
-            Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum
-          </p>
-          <h4>$49.50</h4>
-          <small>Eligible for Shipping To Mars or somewhere else</small>
+          <div class="merchandise-inner">
+            <img src="../assets/router.png" alt="" />
+            <p>
+              Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+              Lorem ipsum
+            </p>
+            <h4>$49.50</h4>
+          </div>
         </div>
         <div class="merchandise-card">
-          <img src="../assets/cable.png" alt="" />
-
-          <p>
-            Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum
-          </p>
-          <h4>$49.50</h4>
-          <small>Eligible for Shipping To Mars or somewhere else</small>
+          <div class="merchandise-inner">
+            <img src="../assets/cable.png" alt="" />
+            <p>
+              Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+              Lorem ipsum
+            </p>
+            <h4>$49.50</h4>
+          </div>
         </div>
         <div class="merchandise-card">
-          <img src="../assets/fiber.png" alt="" />
-
-          <p>
-            Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum
-          </p>
-          <h4>$49.50</h4>
-          <small>Eligible for Shipping To Mars or somewhere else</small>
+          <div class="merchandise-inner">
+            <img src="../assets/fiber.png" alt="" />
+            <p>
+              Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+              Lorem ipsum
+            </p>
+            <h4>$49.50</h4>
+          </div>
         </div>
         <div class="merchandise-card">
-          <br />
-          <img src="../assets/laptop.png" alt="" />
-          <br />
-          <br />
-          <p>
-            Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum
-          </p>
-          <h4>$49.50</h4>
-          <small>Eligible for Shipping To Mars or somewhere else</small>
+          <div class="merchandise-inner">
+            <br />
+            <img src="../assets/laptop.png" alt="" />
+            <br />
+            <br />
+            <p>
+              Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+              Lorem ipsum
+            </p>
+            <h4>$49.50</h4>
+          </div>
         </div>
       </section>
     </main>
@@ -52,13 +52,19 @@
 </template>
 
 <script>
-export default {};
+import Caption from "@/components/Caption.vue";
+export default {
+  components: {
+    Caption,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 body {
+  background-color: #fbfbfb;
   main {
-      padding-bottom: 5%;
+    padding-bottom: 5%;
     img {
       width: 50%;
     }
@@ -92,12 +98,32 @@ body {
       }
 
       .merchandise-card {
+        padding: 10px;
         width: 40%;
         margin: 10px;
+        text-align: center;
+        margin: 0 10px;
+        padding: 20px 0;
+        border-radius: 5px;
+        background-color: #fff;
+        width: 30%;
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+        cursor: pointer;
 
         small {
-          font-size: 12px;
+          font-size: 11px;
           color: #505050;
+        }
+
+        .merchandise-inner {
+          width: 80%;
+
+          p,
+          span,
+          h4 {
+            text-align: left;
+            width: 100%;
+          }
         }
 
         h4 {

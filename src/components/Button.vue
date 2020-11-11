@@ -13,7 +13,7 @@
 <script>
 export default {
   name: "main-button",
-  data: function () {
+  data() {
     return {
       style: "width:" + this.width,
     };
