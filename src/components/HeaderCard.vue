@@ -4,7 +4,7 @@
       <article>
         <h1>
           Internet Generation Technology Solutions <br />
-          Africa Limited
+          Africa Limited (IGTS)
         </h1>
 
         <p>
@@ -80,7 +80,8 @@ body {
     }
 
     h1 {
-      font-size: 35px;
+      font-size: 40px;
+      line-height: 50px;
       color: #fbfbfb;
       text-align: center;
       font-weight: 600;

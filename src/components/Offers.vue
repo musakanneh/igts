@@ -1,7 +1,7 @@
 <template>
   <body>
     <main>
-      <h1>What We Offer</h1>
+      <Caption captions="What we offer"></Caption>
       <section>
         <div class="offers">
           <img src="../assets/case.png" alt="" />
@@ -45,7 +45,10 @@
 </template>
 
 <script>
-export default {};
+import Caption from "@/components/Caption.vue";
+export default {
+  components: { Caption },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -80,7 +83,7 @@ body {
     section {
       justify-content: space-between;
       width: 100%;
-      padding-top: 40px;
+      padding-top: 20px;
       display: flex;
       margin: auto;
 
@@ -94,6 +97,7 @@ body {
         margin: 0 10px;
         padding: 20px 0;
         border-radius: 5px;
+        background-color: #fbfbfb;
         width: 30%;
         box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
         cursor: pointer;

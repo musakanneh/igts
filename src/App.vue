@@ -6,7 +6,6 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-
     <Navbar />
     <router-view />
     <Footer />
@@ -28,18 +27,18 @@ export default {
 
 <style>
 * {
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  padding: auto;
 }
 
-#boapp {
+#app {
   display: flex;
   flex: auto;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
   flex-direction: column;
   padding: 0;
   margin: 0;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

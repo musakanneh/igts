@@ -1,7 +1,7 @@
 <template>
-  <header class="header" id="myHeader">
+  <header>
     <nav>
-      <a href="/"><img class="logo" src="../assets/logo.png" alt="" /></a>
+      <a href="/"><img class="logo" src="../assets/logo.jpg" alt="" /></a>
       <ul class="nav-side-items">
         <li>
           <a class="drop-down-liks">Our Services</a>
@@ -21,17 +21,18 @@
         <li>
           <a href="/contact">Reach Us</a>
         </li>
-        <li class="contact-us">
-          <a href="">Subscribe</a>
-        </li>
+        <Button :isFullWidth="false" label="Subscribe" width="150px"></Button>
       </ul>
     </nav>
   </header>
 </template>
 
 <script>
+import Button from "@/components/Button.vue";
 export default {
-  components: {},
+  components: {
+    Button,
+  },
 };
 </script>
 
@@ -47,22 +48,20 @@ header {
   position: sticky !important;
   top: 0;
   background: linear-gradient(-90deg, #9b2b2b, #3b85fc);
-  height: 60px;
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
 }
 
 nav {
-  opacity: 0.8;
   justify-content: space-between;
   display: flex;
-  padding: 0 8%;
+  width: 90%;
 
   .logo {
     float: left;
     margin: 10px 0;
-    width: 20%;
+    width: 30%;
   }
 
   .contact-us {
@@ -74,40 +73,21 @@ nav {
     border: none;
     font-style: normal;
     font-weight: 500;
-
-    a {
-      font-size: 12px;
-      // padding: 10px;
-      //   color: #fff;
-      border: none;
-      background-color: #3b85fc;
-      border-radius: 5px;
-      //   font-size: 18px;
-      //   height: 65px;
-      color: white;
-      box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
-        inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
-        inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
-      text-align: center;
-      cursor: pointer;
-
-      &:hover {
-        color: #fbfbfb;
-      }
-    }
   }
 
   ul {
     list-style: none;
+    padding: 10px 0;
 
     li,
     li a {
       font-size: 12px;
       z-index: 1;
+      padding: 0 10px;
       color: #fff;
       cursor: pointer;
       transition: 200ms;
-      font-weight: 600;
+      font-weight: 500;
       text-decoration: none;
       white-space: nowrap;
 
@@ -120,10 +100,6 @@ nav {
         height: 100%;
         width: 100%;
       }
-    }
-
-    li {
-      padding-right: 36px;
     }
 
     .link {
@@ -167,7 +143,6 @@ nav {
             height: 0;
             border-top: 5px solid transparent;
             border-bottom: 5px solid transparent;
-            // border-left: 5px solid #6ca714;
           }
 
           ul {
