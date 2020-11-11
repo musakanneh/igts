@@ -12,8 +12,7 @@
           fellowship program <br />
           that will use ICT for sustainable development.
         </p>
-
-        <section>
+        <section class="btn-sec">
           <Button
             :isFullWidth="false"
             label="Explore more"
@@ -90,6 +89,7 @@ body {
     }
 
     section {
+      margin-top: 30px !important;
       width: 35%;
       margin: auto;
       justify-content: space-between;

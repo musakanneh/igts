@@ -1,74 +1,78 @@
 <template>
-<div>
-    <button :style="style" :class="{ fullWidth: isFullWidth, halfWidth: !isFullWidth }" class="main-button">
-        {{ label }}
+  <div>
+    <button
+      :style="style"
+      :class="{ fullWidth: isFullWidth, halfWidth: !isFullWidth }"
+      class="main-button"
+    >
+      {{ label }}
     </button>
-</div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "main-button",
-    data: function () {
-        return {
-            style: "width:" + this.width,
-        };
+  name: "main-button",
+  data: function () {
+    return {
+      style: "width:" + this.width,
+    };
+  },
+  props: {
+    label: {
+      type: String,
+      required: true,
     },
-    props: {
-        label: {
-            type: String,
-            required: true,
-        },
-        isFullWidth: {
-            type: Boolean,
-            required: true,
-        },
-        width: {
-            type: String,
-            required: false,
-        },
+    isFullWidth: {
+      type: Boolean,
+      required: true,
     },
+    width: {
+      type: String,
+      required: false,
+    },
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
-    .main-button {
-        height: 80px !important;
-        width: 30% !important;
-        font-size: 30px !important;
-    }
+  .main-button {
+    height: 80px !important;
+    width: 30% !important;
+    font-size: 30px !important;
+  }
 }
 
 .fullWidth {
-    width: 100%;
+  width: 100%;
 }
 
 .halfWidth {
-    width: 60%;
+  width: 60%;
 }
 
 .main-button {
-    cursor: pointer;
-    height: 45px;
-    background: #3b85fc;
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
-    border-radius: 3px;
-    border: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 18px;
-    color: #fff;
+  border: none;
+  background: linear-gradient(-90deg, #ff0000, #3b85fc);
+  border-radius: 5px;
+  font-size: 18px;
+  height: 45px;
+  color: white;
+  box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
+    inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
+    inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+  text-align: center;
+  cursor: pointer;
 }
 
 .main-button:hover {
-    background: #3b85fc;
-    transition: 1s ease;
-    color: #ffffff;
+  background: #3b85fc;
+  transition: 1s ease;
+  color: #ffffff;
 }
 
 button:focus {
-    outline: none;
+  outline: none;
 }
 </style>

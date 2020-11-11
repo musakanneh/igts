@@ -45,7 +45,12 @@ header {
   width: 100%;
   position: -webkit-sticky !important;
   position: sticky !important;
-  top: 0 !important;
+  top: 0;
+  background: linear-gradient(-90deg, #ff0000, #3b85fc);
+  height: 60px;
+  -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
 }
 
 nav {
@@ -69,10 +74,23 @@ nav {
     border: none;
     font-style: normal;
     font-weight: 500;
+
     a {
       font-size: 12px;
-      padding: 10px;
-      color: #fff;
+      // padding: 10px;
+      //   color: #fff;
+      border: none;
+      background-color: #3b85fc;
+      border-radius: 5px;
+      //   font-size: 18px;
+      //   height: 65px;
+      color: white;
+      box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
+        inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
+        inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+      text-align: center;
+      cursor: pointer;
+
       &:hover {
         color: #fbfbfb;
       }
@@ -86,9 +104,10 @@ nav {
     li a {
       font-size: 12px;
       z-index: 1;
-      color: #303030;
+      color: #fff;
       cursor: pointer;
       transition: 200ms;
+      font-weight: 600;
       text-decoration: none;
       white-space: nowrap;
 

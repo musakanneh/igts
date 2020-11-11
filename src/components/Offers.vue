@@ -1,6 +1,7 @@
 <template>
   <body>
     <main>
+      <h1>What We Offer</h1>
       <section>
         <div>
           <img src="../assets/case.png" alt="" />
@@ -50,6 +51,28 @@ export default {};
 <style lang="scss" scoped>
 body {
   main {
+    position: relative;
+    top: -6vh;
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 3px 50px;
+    width: 80%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+    h1 {
+      font-size: 30px;
+      color: #3b85fc;
+      padding-bottom: 10px;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 30px;
+      transition: 200ms;
+      white-space: nowrap;
+    }
+
     img {
       width: 25px;
     }
@@ -81,6 +104,7 @@ body {
           padding-bottom: 10px;
           margin: auto;
         }
+
         a {
           text-decoration: none;
           font-size: 14px;
@@ -94,14 +118,17 @@ body {
           font-size: 12px;
           line-height: 18px;
           color: #fff;
+
           &:hover {
             background-color: #3b85fc;
             transition: 0.5s ease;
           }
         }
+
         &:hover {
           box-shadow: 0px 6px 20px rgba(107, 117, 201, 0.342);
           transition: 1s ease;
+
           h2 {
             color: #3b85fc;
             transition: 0.5s ease;
