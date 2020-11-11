@@ -112,7 +112,6 @@ export default {
 
 <style lang="scss" scoped>
 body {
-  padding: 30px 0;
   text-align: center;
 
   .projects-cover {
@@ -161,7 +160,7 @@ body {
 
       p {
         font-size: 15px;
-        width: 60%;
+        width: 70%;
         margin: auto;
         line-height: 20px;
       }
