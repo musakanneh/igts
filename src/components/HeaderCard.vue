@@ -51,7 +51,7 @@ export default {
 
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
-    url("../assets/bg.jpeg");
+    url("../assets/banner.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: auto;
@@ -64,7 +64,7 @@ body {
     display: flex;
     flex: auto;
     width: auto;
-    padding: 8%;
+    padding: 12%;
     margin: auto;
 
     article {

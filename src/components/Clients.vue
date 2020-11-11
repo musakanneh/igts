@@ -2,7 +2,7 @@
   <body>
     <main>
       <aside>
-        <img src="../assets/client.png" alt="" />
+        <img src="../assets/client.jpg" alt="" />
       </aside>
       <article>
         <Caption captions="Clients We’ve Worked With"></Caption>
