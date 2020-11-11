@@ -68,8 +68,8 @@
       </article>
     </main>
     <section class="learn-more-sec">
-      <div><img src="../assets/techguy.png" alt="" /></div>
-      <div>
+      <div><img src="../assets/learnmore.jpg" alt="" /></div>
+      <div class="learn-more-inner">
         <h2>
           Learn More About Us
         </h2>
@@ -88,6 +88,7 @@
           felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
           consequat massa quis enim.
         </p>
+        <br />
         <Button
           :isFullWidth="false"
           label="Explore more"
@@ -176,8 +177,19 @@ body {
   }
 
   .learn-more-sec {
+    text-align: left;
     width: 90%;
     margin: auto;
+
+    .learn-more-inner {
+      width: 80%;
+
+      p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+      }
+    }
 
     h2 {
       padding: 8px 0;
@@ -186,12 +198,6 @@ body {
       font-weight: 600;
       transition: 200ms;
       white-space: nowrap;
-    }
-
-    p {
-      font-size: 14px;
-      line-height: 20px;
-      width: 85%;
     }
 
     img {
