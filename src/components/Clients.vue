@@ -14,37 +14,27 @@
           consequat massa quis enim.
         </p>
 
-        <section>
+        <section class="projects-cover">
           <div>
             <img src="../assets/case.png" alt="" />
             <h4>
               Project
             </h4>
-            <small>
+            <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor.
-            </small>
+            </p>
           </div>
           <div>
             <img src="../assets/case.png" alt="" />
             <h4>
               Project
             </h4>
-            <small>
+            <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor.
-            </small>
-          </div>
-
-          <div>
-            <img src="../assets/case.png" alt="" />
-            <h4>
-              Project
-            </h4>
-            <small>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor.
-            </small>
+            </p>
+            <br />
           </div>
 
           <div>
@@ -52,10 +42,21 @@
             <h4>
               Project
             </h4>
-            <small>
+            <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor.
-            </small>
+            </p>
+          </div>
+
+          <div>
+            <img src="../assets/case.png" alt="" />
+            <h4>
+              Project
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor.
+            </p>
           </div>
         </section>
 
@@ -114,6 +115,10 @@ body {
   padding: 30px 0;
   text-align: center;
 
+  .projects-cover {
+    width: 70%;
+  }
+
   section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -125,14 +130,11 @@ body {
 
     div {
       margin: 10px 0;
-      width: 90%;
+      width: 100%;
+      margin: auto;
 
       h4 {
         padding: 2px 0;
-      }
-
-      small {
-        font-size: 14px;
       }
     }
   }
@@ -140,12 +142,13 @@ body {
   main {
     display: flex;
     flex-direction: row;
+    background-color: #e0ecfd;
+    height: auto;
+    width: 100%;
     flex: auto;
 
     article {
-      width: 80%;
-      padding: 2% 7%;
-      background-color: #e0ecfd;
+      width: 70%;
 
       h2 {
         font-size: 30px;
@@ -158,16 +161,17 @@ body {
 
       p {
         font-size: 15px;
-        width: 50%;
+        width: 60%;
         margin: auto;
-        border: 1px solid red;
         line-height: 20px;
       }
     }
 
     aside {
+      width: 30%;
       img {
         width: 100%;
+        height: 80%;
       }
     }
   }

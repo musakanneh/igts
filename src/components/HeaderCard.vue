@@ -6,7 +6,6 @@
           Internet Generation Technology Solutions <br />
           Africa Limited (IGTS)
         </h1>
-
         <p>
           Building 100 software engineers by 2023 through the techaware
           fellowship program <br />
@@ -37,18 +36,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media only screen and (max-width: 900px) {
-  body {
-    margin: 0 !important;
-    padding: 0 !important;
-    min-width: 111% !important;
-  }
-
-  * {
-    display: block !important;
-  }
-}
-
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
     url("../assets/banner.jpg");
