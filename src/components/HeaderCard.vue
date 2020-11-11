@@ -64,7 +64,7 @@ body {
     display: flex;
     flex: auto;
     width: auto;
-    padding: 12%;
+    padding: 10%;
     margin: auto;
 
     article {
