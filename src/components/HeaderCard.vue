@@ -38,7 +38,7 @@ export default {
 <style lang="scss" scoped>
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
-    url("../assets/banner.jpg");
+    url("../assets/background.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: auto;
