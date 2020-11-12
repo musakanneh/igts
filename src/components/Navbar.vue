@@ -4,22 +4,22 @@
       <a href="/"><img class="logo" src="../assets/logo.jpg" alt="" /></a>
       <ul class="nav-side-items">
         <li>
-          <a href="/services" class="drop-down-liks">Our Services</a>
-        </li>
-        <li class="drop-down-liks">
-          <a class="drop-down-liks"> Our Work</a>
+          <a href="/services">Our Services</a>
         </li>
         <li>
-          <a href="/contact">The Company</a>
+          <a href=""> Our Work</a>
         </li>
         <li>
-          <a href="/contact">Get Involved</a>
+          <a href="/about">The Company</a>
         </li>
         <li>
-          <a href="/contact">Store</a>
+          <a href="/">Get Involved</a>
         </li>
         <li>
-          <a href="/contact">Reach Us</a>
+          <a href="/">Store</a>
+        </li>
+        <li>
+          <a href="/">Reach Us</a>
         </li>
         <Button :isFullWidth="false" label="Subscribe" width="150px"></Button>
       </ul>
