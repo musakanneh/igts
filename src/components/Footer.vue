@@ -27,8 +27,9 @@
       <div>
         <Contact />
         <br />
-        <h3>Follow Us</h3>
+
         <div class="social-medias">
+          <h3>Follow Us:</h3>
           <a href="https://www.facebook.com/">
             <i class="fab fa-facebook"></i
           ></a>
@@ -80,9 +81,9 @@ footer {
   .social-medias {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 70%;
     float: left;
-
+    
     i {
       cursor: pointer;
       font-size: 25px;

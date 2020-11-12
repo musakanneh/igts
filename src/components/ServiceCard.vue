@@ -60,7 +60,7 @@
         <article>
           <h1>
             Online Merchandizing <br />
-            trade / Product Store
+            Trade / Product Store
           </h1>
           <p>
             IGTS engages into online and e-commerce business networking and
@@ -102,6 +102,7 @@ export default {
 
 <style lang="scss" scoped>
 body {
+  margin: 3% 0;
   main {
     .sec-one-cover {
       display: flex;
@@ -109,13 +110,12 @@ body {
       flex: auto;
       margin: auto;
       padding: 2% 0;
-      //   border: 1px solid red;
       width: 85%;
       justify-content: space-between;
 
       h1 {
         padding: 25px 0;
-        font-size: 35px;
+        font-size: 30px;
         color: #3b85fc;
         font-weight: 600;
         transition: 200ms;
@@ -123,8 +123,7 @@ body {
       }
 
       article {
-        // border: 1px solid red;
-        width: 40%;
+        width: 50%;
 
         p {
           line-height: 22px;
@@ -135,9 +134,8 @@ body {
       .img-cover {
         width: 50%;
         display: flex;
-        // border: 1px solid red;
         img {
-          width: 45%;
+          width: 50%;
         }
       }
     }
