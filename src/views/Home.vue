@@ -18,6 +18,7 @@ import Team from "../components/Team.vue";
 import Contact from "../components/Contact.vue";
 
 export default {
+    name: 'Home',
     components: {
         HeaderCard,
         Offers,

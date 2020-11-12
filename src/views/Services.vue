@@ -108,6 +108,7 @@
 import Button from "@/components/Button.vue";
 import Caption from "@/components/Caption.vue";
 export default {
+   name: 'Services',
   components: {
     Button,
     Caption,
