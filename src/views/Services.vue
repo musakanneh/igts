@@ -41,65 +41,7 @@
           width="150px"
         ></Button>
       </div>
-
-      <div class="sec-one-cover">
-        <div class="cap">
-          <h1>
-            Our Digital Literacy <br />
-            Program
-          </h1>
-          <p>
-            A two-years, six months fellowship program designed to train and
-            empower young and consciously-driven programmers, and software
-            engineers and developers and usher them into our ‘Innovation &
-            Developers’ Campus.’ Participants will work either in-person and/or
-            remotely at one of our IDCs working for our client-employer
-            institution to help with ICT-related issues and problems being faced
-            by them; they will also work with us as in-house programmers,
-            software engineers and developers at our ‘ICT-Tech Help Clinic’.
-          </p>
-          <br />
-          <Button
-            :isFullWidth="false"
-            label="Explore More"
-            width="150px"
-          ></Button>
-        </div>
-        <div class="img-cover">
-          <img src="../assets/d-literacy.png" alt="" />
-        </div>
-      </div>
-
-      <div class="sec-one-cover">
-        <div class="cap">
-          <h1>
-            Our Digital Literacy <br />
-            Program
-          </h1>
-          <p>
-            A two-years, six months fellowship program designed to train and
-            empower young and consciously-driven programmers, and software
-            engineers and developers and usher them into our ‘Innovation &
-            Developers’ Campus.’ Participants will work either in-person and/or
-            remotely at one of our IDCs working for our client-employer
-            institution to help with ICT-related issues and problems being faced
-            by them; they will also work with us as in-house programmers,
-            software engineers and developers at our ‘ICT-Tech Help Clinic’.
-          </p>
-          <br />
-          <Button
-            :isFullWidth="false"
-            label="Explore More"
-            width="150px"
-          ></Button>
-        </div>
-        <div class="img-cover">
-          <img class="cover" src="../assets/d-literacy.png" alt="" />
-        </div>
-      </div>
-
-      <article></article>
-      <aside></aside>
+      <ServiceCard />
     </main>
   </body>
 </template>
@@ -107,11 +49,13 @@
 <script>
 import Button from "@/components/Button.vue";
 import Caption from "@/components/Caption.vue";
+import ServiceCard from "@/components/ServiceCard.vue";
 export default {
-   name: 'Services',
+  name: "Services",
   components: {
     Button,
     Caption,
+    ServiceCard,
   },
 };
 </script>

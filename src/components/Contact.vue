@@ -1,60 +1,43 @@
 <template>
   <body>
+    <h3>Enter your email to subscribe to our newsletter</h3>
     <main>
-      <Caption captions="Lorem ipsum dolor sit amet eam "></Caption>
-      <p>
-        Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no
-        suscipit quaerendum. <br />
-        At nam minimum ponderum. Est audiam animal molestiae te.
-      </p>
-      <br /><br />
-      <section class="mail">
-        <input type="text" name="" id="" />
-        <button>Subscribe</button>
-      </section>
+      <input type="text" name="" id="" />
+      <Button :isFullWidth="false" label="Subscribe" width="150px"></Button>
     </main>
   </body>
 </template>
 
 <script>
-import Caption from "@/components/Caption.vue";
+import Button from "@/components/Button.vue";
 export default {
-  components: { Caption },
+  components: {
+    Button,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 body {
   text-align: center;
-  background-color: #fbfbfb;
+  h3 {
+    color: #3b85fc;
+    font-size: 18px;
+    padding-bottom: 10px;
+    transition: 200ms;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 600;
+  }
   main {
-    padding: 5%;
-    h1 {
-      width: 50%;
-      font-size: 20px;
-      margin: auto;
-      color: #3b85fc;
-      padding: 20px 0;
-    }
-    p {
-      color: #505050;
-      font-size: 12px;
-      width: 50%;
-      margin: auto;
-    }
+    display: flex;
+    justify-content: space-between;
 
     input {
       border: 1px solid #3b85fc;
-      padding: 4px 10px;
-    }
-
-    button {
-      background: #3b85fc;
-      border: transparent;
-      color: #fff;
-      font-size: 12px;
-      padding: 6px 10px;
-      margin: 0 5px;
+      width: 60%;
+      padding: 3% 10px;
+      border-radius: 5px;
     }
   }
 }

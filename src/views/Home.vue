@@ -5,7 +5,7 @@
     <Clients />
     <Merchandise />
     <Team />
-    <Contact />
+   
 </div>
 </template>
 
@@ -15,7 +15,6 @@ import Offers from "../components/Offers.vue";
 import Clients from "../components/Clients.vue";
 import Merchandise from "../components/Merchandise.vue";
 import Team from "../components/Team.vue";
-import Contact from "../components/Contact.vue";
 
 export default {
     name: 'Home',
@@ -25,7 +24,6 @@ export default {
         Clients,
         Merchandise,
         Team,
-        Contact,
     },
 };
 </script>
