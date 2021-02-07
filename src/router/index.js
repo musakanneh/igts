@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home";
 import About from "../views/About";
 import Services from "../views/Services";
+import Work from "../views/Work";
 
 Vue.use(VueRouter);
 
@@ -22,6 +23,11 @@ const routes = [
     name: "Services",
     component: Services
   },
+  {
+    path: "/work",
+    name: "Work",
+    component: Work
+  }
 ];
 
 const router = new VueRouter({

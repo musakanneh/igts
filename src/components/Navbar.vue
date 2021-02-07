@@ -1,13 +1,17 @@
 <template>
   <header>
     <nav>
-      <a href="/"><img class="logo" src="../assets/logo.jpg" alt="" /></a>
+      <a href="/">
+        <h2 class="logo">
+          IGTS
+        </h2>
+      </a>
       <ul class="nav-side-items">
         <li>
           <a href="/services">Our Services</a>
         </li>
         <li>
-          <a href=""> Our Work</a>
+          <a href="/Work"> Our Work</a>
         </li>
         <li>
           <a href="/about">The Company</a>
@@ -21,8 +25,8 @@
         <li>
           <a href="/">Reach Us</a>
         </li>
-        <Button :isFullWidth="false" label="Subscribe" width="150px"></Button>
       </ul>
+      <Button :isFullWidth="false" label="Subscribe" width="150px"></Button>
     </nav>
   </header>
 </template>
@@ -62,6 +66,9 @@ nav {
     float: left;
     margin: 10px 0;
     width: 30%;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: white; 
   }
 
   .contact-us {

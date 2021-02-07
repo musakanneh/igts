@@ -30,6 +30,9 @@ export default {
   margin: auto;
   padding: auto;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 #app {
   display: flex;
@@ -39,6 +42,7 @@ export default {
   flex-direction: column;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

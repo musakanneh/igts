@@ -112,21 +112,22 @@ body {
         }
 
         a {
-          text-decoration: none;
+          text-decoration: underline;
           font-size: 14px;
           padding: 5px 10px;
           cursor: pointer;
-          background-color: #3b85fc;
+          background-color: white;
           box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
           border-radius: 3px;
           font-style: normal;
           font-weight: 500;
           font-size: 12px;
           line-height: 18px;
-          color: #fff;
+          color: #3b85fc;
 
           &:hover {
             background-color: #3b85fc;
+            color: white;
             transition: 0.5s ease;
           }
         }
