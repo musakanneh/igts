@@ -88,7 +88,7 @@ body {
         cursor: pointer;
         border: 1px solid #3b85fc;
         box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
-        border-radius: 3px;
+        // border-radius: 3px;
         width: 40%;
         font-style: normal;
         font-weight: 500;

@@ -116,8 +116,7 @@ body {
           font-size: 14px;
           padding: 5px 10px;
           cursor: pointer;
-          background-color: white;
-          box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+          background-color: #fbfbfb;
           border-radius: 3px;
           font-style: normal;
           font-weight: 500;

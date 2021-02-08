@@ -55,7 +55,7 @@ export default {
 .main-button {
   border: none;
   background: #3b85fc;
-  border-radius: 5px;
+  // border-radius: 5px;
   font-size: 18px;
   height: 45px;
   color: white;
@@ -67,7 +67,7 @@ export default {
 }
 
 .main-button:hover {
-  background: #3b85fc;
+  background: rgba(47, 128, 237, 0.4);
   transition: 0.5s ease;
   color: #ffffff;
 }
