@@ -18,18 +18,6 @@
         <section class="about-our-work">
 
             <div class="about-title">
-                <p>Watch what we've been upto</p>
-            </div>
-
-            <p style="font-size: 1.5rem">
-                    Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. 
-                    Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. 
-                    Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. 
-            </p>
-
-            <img style = " margin-bottom: 30px" src="../assets/video.png" alt="">
-
-            <div class="about-title">
                 <p>About Our Work</p>
             </div>
             <div class="about-text">
@@ -203,7 +191,7 @@ export default {
 }
 
 .about-text p {
-    font-size: 1.5rem;
+    font-size: 15sp;
     margin-bottom: 10px;
 }
 
