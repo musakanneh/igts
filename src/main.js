@@ -4,7 +4,8 @@ import router from "./router";
 import './js/slider.js'
 
 // animation library
-import VueTextTransition from 'vue-text-transition'
+import 'animate.css';
+import VueTextTransition from 'vue-text-transition';
 Vue.component('vue-text-transition', VueTextTransition)
 
 Vue.config.productionTip = false;
