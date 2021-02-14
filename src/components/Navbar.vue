@@ -61,6 +61,7 @@ nav {
   justify-content: space-between;
   display: flex;
   width: 90%;
+  animation: fadeIn 5s;
 
   .logo {
     float: left;

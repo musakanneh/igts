@@ -64,6 +64,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+    animation: fadeIn 5s;
 
     h1 {
       font-size: 30px;
