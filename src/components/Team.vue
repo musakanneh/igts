@@ -35,6 +35,8 @@
             Co-Founder & CTO
           </p>
         </div>
+      </section>
+      <section>
         <div>
           <img src="../assets/Boima.png" alt="" />
           <h2>
@@ -42,6 +44,24 @@
           </h2>
           <p>
             Co-Founder & CFO
+          </p>
+        </div>
+        <div>
+          <img src="../assets/ian.png" alt="" />
+          <h2>
+            Ian Odhiambo
+          </h2>
+          <p>
+            Senior Systems Engineer
+          </p>
+        </div>
+        <div>
+          <img src="https://via.placeholder.com/300" alt="" />
+          <h2>
+            Ebenezer Davies
+          </h2>
+          <p>
+            Senior Programme Associate
           </p>
         </div>
       </section>
@@ -67,6 +87,7 @@ body {
   background-size: cover;
   z-index: 1;
   text-align: center;
+  animation: fadeIn 5s;
 
   main {
     position: relative;
