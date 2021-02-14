@@ -2,51 +2,72 @@
   <body>
     <main>
       <Caption captions="Get Our Merchandice"></Caption>
+
       <section>
-        <div class="merchandise-card">
-          <div class="merchandise-inner">
-            <img src="../assets/router.png" alt="" />
-            <p>
-              Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-              Lorem ipsum
-            </p>
-            <h4>$49.50</h4>
-          </div>
+        <div>
+          <img src="../assets/back.png" alt="">
         </div>
-        <div class="merchandise-card">
-          <div class="merchandise-inner">
-            <img src="../assets/cable.png" alt="" />
-            <p>
-              Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-              Lorem ipsum
-            </p>
-            <h4>$49.50</h4>
+        <section>
+          <div class="merchandise-card">
+            <div class="merchandise-inner">
+              <img src="../assets/router.png" alt="" />
+              <br />
+              <h2 class="p-name">Product Name here</h2>
+              <p class="p-dec">
+                Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum
+              </p>
+              <h4 class="p-price">$49.50</h4>
+              <p class="p-ship-info">Shipping Information here</p>
+              <button class="p-cart-btn">Add to Cart</button>
+            </div>
           </div>
-        </div>
-        <div class="merchandise-card">
-          <div class="merchandise-inner">
-            <img src="../assets/fiber.png" alt="" />
-            <p>
-              Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-              Lorem ipsum
-            </p>
-            <h4>$49.50</h4>
+          <div class="merchandise-card">
+            <div class="merchandise-inner">
+              <img src="../assets/cable.png" alt="" />
+              <br />
+              <h2 class="p-name">Product Name here</h2>
+              <p class="p-dec">
+                Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum
+              </p>
+              <h4 class="p-price">$49.50</h4>
+              <p class="p-ship-info">Shipping Information here</p>
+              <button class="p-cart-btn">Add to Cart</button>
+            </div>
           </div>
-        </div>
-        <div class="merchandise-card">
-          <div class="merchandise-inner">
-            <br />
-            <img src="../assets/laptop.png" alt="" />
-            <br />
-            <br />
-            <p>
-              Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-              Lorem ipsum
-            </p>
-            <h4>$49.50</h4>
+          <div class="merchandise-card">
+            <div class="merchandise-inner">
+              <img src="../assets/fiber.png" alt="" />
+              <br />
+              <h2 class="p-name">Product Name here</h2>
+              <p class="p-dec">
+                Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum
+              </p>
+              <h4 class="p-price">$49.50</h4>
+              <p class="p-ship-info">Shipping Information here</p>
+              <button class="p-cart-btn">Add to Cart</button>
+            </div>
           </div>
+          <div class="merchandise-card">
+            <div class="merchandise-inner">
+              <img class="p-img" src="../assets/router.png" alt="" />
+              <br />
+              <h2 class="p-name">Product Name here</h2>
+              <p class="p-dec">
+                Wireless Router Lorem ipsum Lorem ipsum Lorem ipsum
+              </p>
+              <h4 class="p-price">$49.50</h4>
+              <p class="p-ship-info">Shipping Information here</p>
+              <button class="p-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <div>
+          <img src="../assets/forward.png" alt="">
+
         </div>
       </section>
+
     </main>
   </body>
 </template>
@@ -65,6 +86,7 @@ body {
   background-color: #fbfbfb;
   main {
     padding-bottom: 5%;
+    animation: fadeIn 5s;
     img {
       width: 50%;
     }
@@ -120,9 +142,10 @@ body {
 
           p,
           span,
-          h4 {
+          h4, .p-name {
             text-align: left;
             width: 100%;
+            margin-bottom: 5px;
           }
         }
 
@@ -131,6 +154,15 @@ body {
           font-size: 18px;
           padding: 6px 0;
           color: #3b85fc;
+        }
+
+        .p-cart-btn {
+          border: none;
+          background: #3b85fc;
+          color: white;
+          padding: 5px;
+          margin-right: 56%;
+          margin-top: 5px;
         }
       }
     }

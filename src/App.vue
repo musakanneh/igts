@@ -7,7 +7,14 @@
       crossorigin="anonymous"
     />
     <Navbar />
-    <router-view />
+
+    <transition 
+      mode="out-in" 
+      enter-active-class="animate__animated animate_fadeIn 5s"
+      leave-active-class="animate__animated animate_fadeOut 5s"
+    >
+      <router-view />
+    </transition>
     <Footer />
   </div>
 </template>
