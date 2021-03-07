@@ -64,9 +64,10 @@
 
         <div>
           <img src="../assets/forward.png" alt="">
-
         </div>
       </section>
+
+      <div class="shop-more-btn"><Button :isFullWidth="false" label="Shop More" width="150px"></Button></div>
 
     </main>
   </body>
@@ -74,9 +75,12 @@
 
 <script>
 import Caption from "@/components/Caption.vue";
+import Button from "@/components/Button.vue";
+
 export default {
   components: {
     Caption,
+    Button
   },
 };
 </script>
@@ -96,11 +100,25 @@ body {
       color: #3b85fc;
     }
 
+    .shop-more-btn{
+      margin-top: 30px;
+      text-align: center;
+
+      button {
+      border: none;
+      background: #3b85fc;
+      color: white;
+      padding: 5px;
+      }
+
+    }
+
     section {
-      justify-content: space-between;
       width: 90%;
       display: flex;
       margin: auto;
+      justify-content: space-between;
+
 
       h2 {
         font-size: 14px;
@@ -161,7 +179,7 @@ body {
           background: #3b85fc;
           color: white;
           padding: 5px;
-          margin-right: 56%;
+          // margin-right: 56%;
           margin-top: 5px;
         }
       }

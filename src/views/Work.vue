@@ -36,7 +36,6 @@
         </section>
         
         <section class="what-we-do">
-
             <div class="about-title">
                 <p>What We Do Best</p>
             </div>
@@ -44,39 +43,103 @@
             <div class="about-best">
                 <div class="progess-bars">
                     <div class="main-bar">
-                        <h2> Digital Literacy </h2>
-                        <span class="bar"><span class="html"></span></span>
-                        <h2> 98% </h2>
-                    </div>
-                    <div class="main-bar">
-                        <h2> Digital Literacy </h2>
-                        <span class="bar"><span class="html"></span></span>
-                        <h2> 98% </h2>
-                    </div>
-                    <div class="main-bar">
-                        <h2> Digital Literacy </h2>
-                        <span class="bar"><span class="html"></span></span>
-                        <h2> 98% </h2>
-                    </div>
-                    <div class="main-bar">
-                        <h2> Digital Literacy </h2>
-                        <span class="bar"><span class="html"></span></span>
-                        <h2> 98% </h2>
-                    </div>
-                    <div class="main-bar">
-                        <h2> Digital Literacy </h2>
-                        <span class="bar"><span class="html"></span></span>
-                        <h2> 98% </h2>
-                    </div>
-                    <div class="main-bar">
-                        <h2> Digital Literacy </h2>
-                        <span class="bar"><span class="html"></span></span>
-                        <h2> 98% </h2>
-                    </div>
-                    <div class="main-bar">
-                        <h2> Digital Literacy </h2>
-                        <span class="bar"><span class="html"></span></span>
-                        <h2> 98% </h2>
+                        <div class="p-bar-text"> 
+                            <p>
+                            Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. 
+                            Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. 
+                            Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. 
+                            </p>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. 
+                                Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. 
+                                Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. 
+                            </p>
+                        </div>
+
+                        <div class="p-bars">
+                            <div class="flex-text-1">
+                                <h2> Digital Literacy </h2>
+
+                                <p>
+                                Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. 
+                                Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. 
+                                Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. 
+                                </p>
+
+                            </div>
+                            <div class="flex-bar-2">
+                                <span class="bar">
+                                    <span class="html"></span>
+                                </span>
+
+                                <!-- <h2> 98% </h2> -->
+
+                            </div>
+                        </div>
+
+                        <div class="p-bars">
+                            <div class="flex-text-1">
+                                <h2> Tech Consultancy and Shows </h2>
+
+                                <p>
+                                Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. 
+                                Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. 
+                                Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. 
+                                </p>
+
+                            </div>
+                            <div class="flex-bar-2">
+                                <span class="bar">
+                                    <span class="html"></span>
+                                </span>
+
+                                <!-- <h2> 98% </h2> -->
+
+                            </div>
+                        </div>
+
+                        <div class="p-bars">
+                            <div class="flex-text-1">
+                                <h2> ICT Clinic </h2>
+
+                                <p>
+                                Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. 
+                                Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. 
+                                Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. 
+                                </p>
+
+                            </div>
+                            <div class="flex-bar-2">
+                                <span class="bar">
+                                    <span class="html"></span>
+                                </span>
+
+                                <!-- <h2> 98% </h2> -->
+
+                            </div>
+                        </div>
+
+                        <div class="p-bars">
+                            <div class="flex-text-1">
+                                <h2> Product Merchandizing </h2>
+
+                                <p>
+                                Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. 
+                                Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. 
+                                Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. 
+                                </p>
+
+                            </div>
+                            <div class="flex-bar-2">
+                                <span class="bar">
+                                    <span class="html"></span>
+                                </span>
+
+                                <!-- <h2> 98% </h2> -->
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,9 +173,9 @@
 
                 <div class="gallery-images">
 
-                    <!-- <img src="../assets/Musa.png" alt=""> -->
+                    <img src="../assets/product.png" alt="">
 
-                    <div class="w3-content w3-display-container" style="max-width:800px">
+                    <!-- <div class="w3-content w3-display-container" style="max-width:800px">
                          <img class="mySlides" src="../assets/laptop.png" style="width:100%">
                          <img class="mySlides" src="../assets/service.jpg" style="width:100%">
                          <img class="mySlides" src="../assets/learnmore.jpg" style="width:100%">
@@ -123,7 +186,7 @@
                             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
                             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
                           </div>
-                        </div>
+                    </div> -->
 
                 </div>
             </div>
@@ -201,8 +264,29 @@ export default {
     margin-bottom: 50px;
 }
 
-.main-bar {
+.p-bar-text {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.p-bars{
     display: flex;
+    margin-bottom: 30px;
+}
+
+.flex-bar-2{
+    flex: 2;
+}
+
+.flex-text-1{
+    text-align: left;
+    flex: 1;
+}
+
+.flex-text-1 h2{
+    margin-bottom: 10px;
+}
+
+.main-bar {
     margin-bottom: 30px;
 }
 /* progress bars */
@@ -212,8 +296,8 @@ export default {
     display: block;
     height: 10px;
     border: solid 1px white;
-    width: 40%;
-    overflow: hidden;
+    width: 50%;
+    overflow: hidden;   
     border-radius: 3px;
 }
 
@@ -223,14 +307,14 @@ export default {
     float: left;
 }
 .html {
-    width: 90%;
+    width: 98%;
 }
 
 /* Happy clients */
 
 .happy-clients {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .about-gallery {
     width: 80%;
@@ -241,15 +325,15 @@ export default {
 }
 
 .gallery-text {
-    flex: 1;
+    flex: 2;
 }
 .gallery-text p {
     font-size: 1.5rem;
 }
 
 .gallery-images {
-    flex: 2;
-    justify-content: center;
+    flex: 1;
+    /* justify-content: center; */
 }
 .icons {
     margin-top: 70px;
