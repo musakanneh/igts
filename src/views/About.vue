@@ -38,9 +38,12 @@
           ></Button>
         </div>
         <div class="img-cover">
-          <img src="../assets/code.jpeg" alt="" />
+          <img src="../assets/video.png" alt="" />
         </div>
       </div>
+
+      <hr>
+
       <GetInvolvedCard />
     </main>
   </body>
@@ -59,12 +62,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  border-top: 1px dashed #3b85fc;
+}
+
 body {
   background-color: #fbfbfb;
   display: flex;
   flex-direction: column;
   flex: auto;
   width: 100%;
+  animation: fadeIn 5s;
 
   p {
     font-size: 15px;

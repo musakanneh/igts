@@ -66,6 +66,8 @@ body {
   display: flex;
   flex-direction: column;
   flex: auto;
+  animation: fadeIn 2s;
+
 
   .offers-sec {
     padding: 10% 0;

@@ -173,7 +173,8 @@
 
                 <div class="gallery-images">
 
-                    <img src="../assets/product.png" alt="">
+                    <img src="https://via.placeholder.com/500" alt="">
+
 
                     <!-- <div class="w3-content w3-display-container" style="max-width:800px">
                          <img class="mySlides" src="../assets/laptop.png" style="width:100%">
@@ -209,6 +210,8 @@ export default {
 <style scoped>
 .main {
     width: 100%;
+    animation: fadeIn 5s;
+
 }
 .container {
     width: 80%;
