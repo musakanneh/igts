@@ -38,7 +38,7 @@
           ></Button>
         </div>
         <div class="img-cover">
-          <img src="../assets/video.png" alt="" />
+          <img src="../assets/comp.png" alt="" />
         </div>
       </div>
 
@@ -50,8 +50,10 @@
 </template>
 
 <script>
+
 import Button from "@/components/Button.vue";
 import GetInvolvedCard from "@/components/GetInvolvedCard.vue";
+
 export default {
   name: "Services",
   components: {
@@ -115,7 +117,8 @@ body {
   .img-cover {
     width: 50%;
     img {
-      width: 100%;
+      max-width: 100%;
+      max-height: 800px;
     }
   }
 }
