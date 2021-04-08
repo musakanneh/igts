@@ -8,6 +8,9 @@
       </a>
       <ul class="nav-side-items">
         <li>
+          <a class="active" href="/">Home</a>
+        </li>
+        <li>
           <a href="/services">Our Services</a>
         </li>
         <li>
@@ -56,7 +59,9 @@ header {
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
 }
-
+.active {
+  text-decoration: underline;
+}
 nav {
   justify-content: space-between;
   display: flex;

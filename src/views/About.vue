@@ -38,7 +38,7 @@
           ></Button>
         </div>
         <div class="img-cover">
-          <img src="../assets/comp.png" alt="" />
+          <img src="../assets/product.png" alt="" />
         </div>
       </div>
 

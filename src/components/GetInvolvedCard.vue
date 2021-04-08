@@ -114,6 +114,15 @@ h1 {
   transition: 200ms;
   white-space: nowrap;
 }
+p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #303030;
+}
+
+.label {
+  margin-bottom: 10px;
+}
 
 .get-involved-cards {
   display: flex;
