@@ -13,11 +13,11 @@
             <a href="/services">SERVICE</a>
             <span class="drop-down-indicator"></span>
           </span>
-          <ul>
+          <ul class="drop-down-cover">
             <li>
               <a href="">Digital Literacy Program</a>
             </li>
-
+            <div class="space__between"></div>
             <li><a href="">Tech Shows</a></li>
             <li><a href="">ICT Tech Help Clinic</a></li>
             <li><a href="">Products Store</a></li>
@@ -31,8 +31,7 @@
             <a href="/">GET INVOLVED</a>
             <span class="drop-down-indicator"></span>
           </span>
-
-          <ul>
+          <ul class="drop-down-cover">
             <li><a href="">Be a Fellow/Developer</a></li>
             <li><a href="">Employ Our Fellow/Developers</a></li>
           </ul>
@@ -70,16 +69,17 @@ export default {
 
 header {
   display: flex;
+  background: rgb(2, 32, 60);
+  // box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.281);
   position: absolute;
   padding: 1rem 0;
-  width: 95%;
-  margin-left: 2.5%;
+  width: 100%;
   top: 0;
 
   div {
     width: 10%;
   }
-  
+
   .logo-cover {
     .logo {
       font-weight: bolder;
@@ -87,6 +87,24 @@ header {
       font-size: 3rem;
       color: #f37f1b;
     }
+  }
+
+  .space__between {
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    top: -19px;
+    width: 2px;
+    left: 100px;
+  }
+
+  .drop-down-cover {
+    border-radius: 3px;
+    z-index: 9010;
+    background: #f37f1b;
+    top: 32px;
   }
 }
 
@@ -98,17 +116,7 @@ nav {
   justify-content: space-between;
   width: 50%;
   display: flex;
-
-  .contact-us {
-    padding: 5px;
-    background-color: #3b85fc;
-    cursor: pointer;
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
-    border-radius: 3px;
-    border: none;
-    font-style: normal;
-    font-weight: 500;
-  }
+  
 
   ul {
     list-style: none;
@@ -125,7 +133,6 @@ nav {
       font-weight: 600;
       letter-spacing: 1px;
       text-decoration: none;
-      white-space: nowrap;
 
       &:hover {
         opacity: 1;
@@ -157,22 +164,28 @@ nav {
 
       ul {
         visibility: hidden;
-        opacity: 1;
         z-index: 1;
-        padding: 0;
-        min-width: 160px;
-        background-color: #000000;
         position: absolute;
-        top: calc(var(--menu-height) + 10px);
         left: 50%;
         transform: translateX(-50%);
-        transition: 200ms;
-        transition-delay: 200ms;
 
         li {
           margin: 0;
           padding: 18px 16px;
           align-items: center;
+          text-decoration: none;
+          &:hover {
+            background: #303030;
+            text-decoration: none;
+          }
+
+          a {
+            margin: 0;
+            padding: 10px;
+            &:hover {
+              text-decoration: none;
+            }
+          }
 
           &::before {
             width: 0;

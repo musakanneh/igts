@@ -5,9 +5,7 @@
       <section>
         <div class="offers">
           <img src="../assets/case.png" alt="" />
-          <h2>
-            Digital Literacy Program
-          </h2>
+          <h2>Digital Literacy Program</h2>
           <p>
             A two-weeks paid-for-training course designed to expose participants
             to different tech awareness courses, programming, and basic
@@ -17,9 +15,7 @@
         </div>
         <div class="offers">
           <img src="../assets/circle.png" alt="" />
-          <h2>
-            ICT Help Clinic
-          </h2>
+          <h2>ICT Help Clinic</h2>
           <p>
             One-stop-shop center established to provide top-notch and executive
             ICT and tech/digital consultancies to individuals, INGOs/NGOs,
@@ -29,9 +25,7 @@
         </div>
         <div class="offers">
           <img src="../assets/circle.png" alt="" />
-          <h2>
-            Online Merchandising
-          </h2>
+          <h2>Online Merchandising</h2>
           <p>
             IGTS engages into online and e-commerce business networking and
             trade. We work with cooperatives, trade unions, and business groups
@@ -53,23 +47,14 @@ export default {
 
 <style lang="scss" scoped>
 body {
+  background: #fbfbfb;
+  
   main {
-    position: relative;
     width: 80%;
     margin: auto;
 
-    h1 {
-      font-size: 30px;
-      padding-bottom: 10px;
-      font-weight: 600;
-      text-align: center;
-      margin-top: 30px;
-      transition: 200ms;
-      white-space: nowrap;
-    }
-
     img {
-      width: 25px;
+      width: 35px;
     }
 
     section {
@@ -80,15 +65,16 @@ body {
       margin: auto;
 
       h2 {
-        font-size: 15px;
+        font-size: 16px;
         padding: 10px;
+        color: #02203c;
       }
 
       .offers {
         text-align: center;
         margin: 0 10px;
         padding: 20px 0;
-        border-radius: 5px;
+        border-radius: 3px;
         width: 30%;
         cursor: pointer;
 
@@ -104,7 +90,7 @@ body {
         a {
           text-decoration: none;
           font-size: 14px;
-          padding: 5px 10px;
+          padding: 6px 10px;
           cursor: pointer;
           background-color: #fbfbfb;
           border: 1px solid #70707063;
@@ -126,8 +112,14 @@ body {
           box-shadow: 0px 6px 20px rgba(107, 117, 201, 0.342);
           transition: 1s ease;
 
+          a{
+            background: #890023;
+            color: #fff;
+            transition: 0.5s ease;
+          }
+
           h2 {
-            color: #3b85fc;
+            color: #890023;
             transition: 0.4s ease;
           }
         }

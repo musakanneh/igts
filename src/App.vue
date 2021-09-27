@@ -33,7 +33,6 @@ export default {
 </script>
 
 <style>
-
 * {
   margin: auto;
   padding: auto;
@@ -43,8 +42,7 @@ html {
 }
 
 .add-spacing-up-and-down {
-  padding: 4rem 0;
-  border: 1px solid red;
+  padding: 8rem 0;
 }
 
 #app {
@@ -61,14 +59,14 @@ html {
 }
 
 .drop-down-indicator {
-    border-left: 7px solid transparent;
-    border-top: 7px solid #f37f1b;
-    border-right: 7px solid transparent;
-    border-bottom: 7px solid transparent;
-    margin: 10px 0 0 0;
-  }
+  border-left: 7px solid transparent;
+  border-top: 7px solid #f37f1b;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  margin: 10px 0 0 0;
+}
 
-  .flex-item{
-    display: flex;
-  }
+.flex-item {
+  display: flex;
+}
 </style>
