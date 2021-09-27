@@ -54,9 +54,11 @@ export default {
 
 .main-button {
   border: none;
-  background: #3b85fc;
-  // border-radius: 5px;
-  font-size: 18px;
+  // background: #3b85fc;
+  // background: #890023;
+  background: #f37f1b;
+  border-radius: 3px;
+  font-size: 15px;
   height: 45px;
   color: white;
   box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
@@ -67,7 +69,7 @@ export default {
 }
 
 .main-button:hover {
-  background: rgba(47, 128, 237, 0.4);
+  background: rgba(47, 129, 237, 0.911);
   transition: 0.5s ease;
   color: #ffffff;
 }

@@ -1,6 +1,6 @@
 <template>
   <body>
-    <main>
+    <main class="add-spacing-up-and-down">
       <Caption captions="What we offer"></Caption>
       <section>
         <div class="offers">
@@ -55,20 +55,18 @@ export default {
 body {
   main {
     position: relative;
-    top: -6vh;
-    background: #fff;
-    border-radius: 10px 10px 0 0;
-    padding: 3px 50px;
+    // background: #fff;
+    // padding: 3px 50px;
     width: 80%;
+    // border: 1px solid green;
     margin: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    animation: fadeIn 5s;
+    // background-repeat: no-repeat;
+    // object-fit: cover;
 
     h1 {
       font-size: 30px;
-      color: #3b85fc;
+      // color: #3b85fc;
+      // color: #890023;
       padding-bottom: 10px;
       font-weight: 600;
       text-align: center;
@@ -98,9 +96,9 @@ body {
         margin: 0 10px;
         padding: 20px 0;
         border-radius: 5px;
-        background-color: #fbfbfb;
+        // background-color: #fbfbfb;
         width: 30%;
-        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+        // box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
         cursor: pointer;
 
         p {
@@ -113,17 +111,18 @@ body {
         }
 
         a {
-          text-decoration: underline;
+          text-decoration: none;
           font-size: 14px;
           padding: 5px 10px;
           cursor: pointer;
           background-color: #fbfbfb;
+          border: 1px solid #70707063;
           border-radius: 3px;
           font-style: normal;
           font-weight: 500;
           font-size: 12px;
           line-height: 18px;
-          color: #3b85fc;
+          color: #606060;
 
           &:hover {
             background-color: #3b85fc;
@@ -138,7 +137,7 @@ body {
 
           h2 {
             color: #3b85fc;
-            transition: 0.5s ease;
+            transition: 0.4s ease;
           }
         }
       }

@@ -12,7 +12,7 @@
           <a class="active" href="/">HOME</a>
         </li>
         <li>
-          <a href="/services">OUR SERVICE</a>
+          <a href="/services">SERVICE</a>
           <ul>
             <li>
               <a href="">Digital Literacy Program – DLP</a>
@@ -23,19 +23,17 @@
           </ul>
         </li>
         <li>
-          <a href="/Work"> OUR WORK</a>
-        </li>
-        <li>
           <a href="/about">THE COMPANY</a>
         </li>
         <li>
           <a href="/">GET INVOLVED</a>
+          <ul>
+            <li><a href="">Be a Fellow/Developer</a></li>
+            <li><a href="">Employ Our Fellow/Developers</a></li>
+          </ul>
         </li>
         <li>
           <a href="/">STORE</a>
-        </li>
-        <li>
-          <a href="/">REACH US</a>
         </li>
         <li>
           <a href="/">TEAM</a>
@@ -44,22 +42,21 @@
     </nav>
 
     <div>
-      <Button :isFullWidth="false" label="Subscribe" width="150px"></Button>
+      <UserLogin/>
+      <!-- <Button :isFullWidth="false" label="REACH US" width="150px"></Button> -->
     </div>
   </header>
 </template>
 
 <script>
-import Button from "@/components/Button.vue";
+import UserLogin from '@/components/UserLogin.vue';
+// import Button from "@/components/Button.vue";
 export default {
   components: {
-    Button,
+    // Button,
+    UserLogin,
   },
 };
-
-// function headerBackgroundUponScroll() {
-
-// }
 </script>
 
 <style lang="scss" scoped>
@@ -69,33 +66,25 @@ export default {
 header {
   display: flex;
   position: absolute;
-  border: 1px solid red;
-  padding: .5rem 0;
-  // border: 1px solid red;
-  // z-index: 1;
-  // background-color: #f4f6fb;
+  padding: 1rem 0;
   width: 100%;
   top: 0;
 
   .logo {
-    // float: left;
-    // margin: 10px 0;
-    // border: 1px solid red;
-    // width: 50%;
     font-weight: bolder;
     font-size: 3rem;
-    color: white;
+    color: #f37f1b;
   }
 }
+
 .active {
   text-decoration: underline;
 }
 
 nav {
   justify-content: space-between;
-  // border: 1px solid red;
-  min-width: 50%;
-  // animation: fadeIn 5s;
+  width: 50%;
+  display: flex;
 
   .contact-us {
     padding: 5px;
@@ -116,11 +105,12 @@ nav {
     li a {
       font-size: 12px;
       z-index: 1;
-      padding: 0 10px;
+      padding: 0 5px;
       color: #fff;
       cursor: pointer;
       transition: 200ms;
-      font-weight: 500;
+      font-weight: 600;
+      letter-spacing: 1px;
       text-decoration: none;
       white-space: nowrap;
 
@@ -180,7 +170,6 @@ nav {
 
           ul {
             top: -2%;
-            border: 1px solid red;
             left: 100%;
             transform: translate(0);
           }

@@ -43,6 +43,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.add-spacing-up-and-down {
+  padding: 4rem 0;
+  border: 1px solid red;
+}
+
 #app {
   display: flex;
   flex: auto;
