@@ -8,25 +8,25 @@
       </a>
       <ul class="nav-side-items">
         <li>
-          <a class="active" href="/">Home</a>
+          <a class="active" href="/">HOME</a>
         </li>
         <li>
-          <a href="/services">Our Services</a>
+          <a href="/services">OUR SERVICE</a>
         </li>
         <li>
-          <a href="/Work"> Our Work</a>
+          <a href="/Work"> OUR WORK</a>
         </li>
         <li>
-          <a href="/about">The Company</a>
+          <a href="/about">THE COMPANY</a>
         </li>
         <li>
-          <a href="/">Get Involved</a>
+          <a href="/">GET INVOLVED</a>
         </li>
         <li>
-          <a href="/">Store</a>
+          <a href="/">STORE</a>
         </li>
         <li>
-          <a href="/">Reach Us</a>
+          <a href="/">REACH US</a>
         </li>
       </ul>
       <Button :isFullWidth="false" label="Subscribe" width="150px"></Button>
@@ -62,6 +62,7 @@ header {
 .active {
   text-decoration: underline;
 }
+
 nav {
   justify-content: space-between;
   display: flex;
