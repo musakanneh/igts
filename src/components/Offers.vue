@@ -48,10 +48,13 @@ export default {
 <style lang="scss" scoped>
 body {
   background: #fbfbfb;
-  
+
   main {
-    width: 80%;
+    width: 90%;
     margin: auto;
+    position: relative;
+    background: #fbfbfb;
+    top: -6vh;
 
     img {
       width: 35px;
@@ -100,19 +103,13 @@ body {
           font-size: 12px;
           line-height: 18px;
           color: #606060;
-
-          &:hover {
-            background-color: #3b85fc;
-            color: white;
-            transition: 0.5s ease;
-          }
         }
 
         &:hover {
           box-shadow: 0px 6px 20px rgba(107, 117, 201, 0.342);
           transition: 1s ease;
 
-          a{
+          a {
             background: #890023;
             color: #fff;
             transition: 0.5s ease;

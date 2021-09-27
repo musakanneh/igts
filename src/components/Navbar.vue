@@ -116,7 +116,6 @@ nav {
   justify-content: space-between;
   width: 50%;
   display: flex;
-  
 
   ul {
     list-style: none;
