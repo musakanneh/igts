@@ -1,9 +1,9 @@
 <template>
   <main>
     <section>
-      <img src="../assets/circle.png" alt="" />
-      <div><p>Musa</p></div>
-      <div class="drop-down-indicator"></div>
+      <img src="../assets/Musa.png" alt="" />
+      <div class=""><p>Musa</p></div>
+      <div class="drop-down-indicator profile-pic"></div>
     </section>
   </main>
 </template>
@@ -13,15 +13,21 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-section {
-  border: 1px solid red;
+main {
+  .profile-pic {
+    margin-top: 0.85rem;
+  }
 
-  .drop-down-indicator {
-    border-left: 7px solid transparent;
-    border-top: 7px solid #fff;
-    border-right: 7px solid transparent;
-    border-bottom: 7px solid transparent;
-    margin: 10px 0 0 0;
+  p {
+    color: #fff;
+  }
+  section {
+    display: flex;
+
+    img {
+      width: 25%;
+      border-radius: 50%;
+    }
   }
 }
 </style>

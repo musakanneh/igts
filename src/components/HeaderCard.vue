@@ -17,9 +17,6 @@
             label="Explore more"
             width="150px"
           ></Button>
-          <div class="view-services2">
-            <a href="">Explore</a>
-          </div>
         </section>
       </article>
     </main>
@@ -37,15 +34,7 @@ export default {
 
 <style lang="scss" scoped>
 body {
-  // background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
-  //   url("../assets/background.jpeg");
   background: rgb(2, 32, 60);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: auto;
-  position: center;
-  background-size: cover;
-  z-index: 1;
   text-align: center;
 
   main {
@@ -60,7 +49,7 @@ body {
     }
 
     p {
-      color: #fbfbfb;
+      color: #fbfbfbe0;
       line-height: 30px;
       padding: 20px 0;
       font-size: 16px;
@@ -70,7 +59,7 @@ body {
     h1 {
       font-size: 40px;
       line-height: 50px;
-      color: #fbfbfb;
+      color: #fbfbfbe0;
       text-align: center;
       font-weight: 600;
       transition: 200ms;
@@ -89,7 +78,6 @@ body {
         cursor: pointer;
         border: 1px solid #3b85fc;
         box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
-        // border-radius: 3px;
         width: 40%;
         font-style: normal;
         font-weight: 500;

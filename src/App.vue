@@ -60,4 +60,16 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.drop-down-indicator {
+    border-left: 7px solid transparent;
+    border-top: 7px solid #f37f1b;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    margin: 10px 0 0 0;
+  }
+
+  .flex-item{
+    display: flex;
+  }
 </style>

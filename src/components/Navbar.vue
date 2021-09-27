@@ -1,7 +1,7 @@
 <template>
   <header>
     <div>
-      <a href="/">
+      <a class="logo-cover" href="/">
         <h2 class="logo">IGTS</h2>
       </a>
     </div>
@@ -9,14 +9,15 @@
     <nav>
       <ul class="nav-side-items">
         <li>
-          <a class="active" href="/">HOME</a>
-        </li>
-        <li>
-          <a href="/services">SERVICE</a>
+          <span class="flex-item">
+            <a href="/services">SERVICE</a>
+            <span class="drop-down-indicator"></span>
+          </span>
           <ul>
             <li>
-              <a href="">Digital Literacy Program – DLP</a>
+              <a href="">Digital Literacy Program</a>
             </li>
+
             <li><a href="">Tech Shows</a></li>
             <li><a href="">ICT Tech Help Clinic</a></li>
             <li><a href="">Products Store</a></li>
@@ -26,7 +27,11 @@
           <a href="/about">THE COMPANY</a>
         </li>
         <li>
-          <a href="/">GET INVOLVED</a>
+          <span class="flex-item">
+            <a href="/">GET INVOLVED</a>
+            <span class="drop-down-indicator"></span>
+          </span>
+
           <ul>
             <li><a href="">Be a Fellow/Developer</a></li>
             <li><a href="">Employ Our Fellow/Developers</a></li>
@@ -38,22 +43,22 @@
         <li>
           <a href="/">TEAM</a>
         </li>
+        <li>
+          <a href="/">REACH US</a>
+        </li>
       </ul>
     </nav>
 
     <div>
-      <UserLogin/>
-      <!-- <Button :isFullWidth="false" label="REACH US" width="150px"></Button> -->
+      <UserLogin />
     </div>
   </header>
 </template>
 
 <script>
-import UserLogin from '@/components/UserLogin.vue';
-// import Button from "@/components/Button.vue";
+import UserLogin from "@/components/UserLogin.vue";
 export default {
   components: {
-    // Button,
     UserLogin,
   },
 };
@@ -67,13 +72,21 @@ header {
   display: flex;
   position: absolute;
   padding: 1rem 0;
-  width: 100%;
+  width: 95%;
+  margin-left: 2.5%;
   top: 0;
 
-  .logo {
-    font-weight: bolder;
-    font-size: 3rem;
-    color: #f37f1b;
+  div {
+    width: 10%;
+  }
+  
+  .logo-cover {
+    .logo {
+      font-weight: bolder;
+      text-decoration: none;
+      font-size: 3rem;
+      color: #f37f1b;
+    }
   }
 }
 
@@ -106,7 +119,7 @@ nav {
       font-size: 12px;
       z-index: 1;
       padding: 0 5px;
-      color: #fff;
+      color: #fbfbfbe0;
       cursor: pointer;
       transition: 200ms;
       font-weight: 600;

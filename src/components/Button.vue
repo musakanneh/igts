@@ -54,8 +54,6 @@ export default {
 
 .main-button {
   border: none;
-  // background: #3b85fc;
-  // background: #890023;
   background: #f37f1b;
   border-radius: 3px;
   font-size: 15px;

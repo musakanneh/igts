@@ -55,18 +55,11 @@ export default {
 body {
   main {
     position: relative;
-    // background: #fff;
-    // padding: 3px 50px;
     width: 80%;
-    // border: 1px solid green;
     margin: auto;
-    // background-repeat: no-repeat;
-    // object-fit: cover;
 
     h1 {
       font-size: 30px;
-      // color: #3b85fc;
-      // color: #890023;
       padding-bottom: 10px;
       font-weight: 600;
       text-align: center;
@@ -96,9 +89,7 @@ body {
         margin: 0 10px;
         padding: 20px 0;
         border-radius: 5px;
-        // background-color: #fbfbfb;
         width: 30%;
-        // box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
         cursor: pointer;
 
         p {
