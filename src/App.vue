@@ -8,12 +8,12 @@
     />
     <Navbar />
 
-    <transition 
-      mode="out-in" 
+    <transition
+      mode="out-in"
       enter-active-class="animate__animated animate_fadeIn 5s"
       leave-active-class="animate__animated animate_fadeOut 5s"
     >
-    <router-view />
+      <router-view />
     </transition>
     <Footer />
   </div>
@@ -40,7 +40,7 @@ export default {
   padding: auto;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 #app {

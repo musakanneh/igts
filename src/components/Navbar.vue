@@ -1,17 +1,26 @@
 <template>
   <header>
-    <nav>
+    <div>
       <a href="/">
-        <h2 class="logo">
-          IGTS
-        </h2>
+        <h2 class="logo">IGTS</h2>
       </a>
+    </div>
+
+    <nav>
       <ul class="nav-side-items">
         <li>
           <a class="active" href="/">HOME</a>
         </li>
         <li>
           <a href="/services">OUR SERVICE</a>
+          <ul>
+            <li>
+              <a href="">Digital Literacy Program – DLP</a>
+            </li>
+            <li><a href="">Tech Shows</a></li>
+            <li><a href="">ICT Tech Help Clinic</a></li>
+            <li><a href="">Products Store</a></li>
+          </ul>
         </li>
         <li>
           <a href="/Work"> OUR WORK</a>
@@ -28,9 +37,15 @@
         <li>
           <a href="/">REACH US</a>
         </li>
+        <li>
+          <a href="/">TEAM</a>
+        </li>
       </ul>
-      <Button :isFullWidth="false" label="Subscribe" width="150px"></Button>
     </nav>
+
+    <div>
+      <Button :isFullWidth="false" label="Subscribe" width="150px"></Button>
+    </div>
   </header>
 </template>
 
@@ -41,6 +56,10 @@ export default {
     Button,
   },
 };
+
+// function headerBackgroundUponScroll() {
+
+// }
 </script>
 
 <style lang="scss" scoped>
@@ -48,16 +67,25 @@ export default {
 }
 
 header {
-  z-index: 1;
-  background-color: #f4f6fb;
+  display: flex;
+  position: absolute;
+  border: 1px solid red;
+  padding: .5rem 0;
+  // border: 1px solid red;
+  // z-index: 1;
+  // background-color: #f4f6fb;
   width: 100%;
-  position: -webkit-sticky !important;
-  position: sticky !important;
   top: 0;
-  background: linear-gradient(-90deg, #9b2b2b, #3b85fc);
-  -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
-  -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+
+  .logo {
+    // float: left;
+    // margin: 10px 0;
+    // border: 1px solid red;
+    // width: 50%;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: white;
+  }
 }
 .active {
   text-decoration: underline;
@@ -65,18 +93,9 @@ header {
 
 nav {
   justify-content: space-between;
-  display: flex;
-  width: 90%;
-  animation: fadeIn 5s;
-
-  .logo {
-    float: left;
-    margin: 10px 0;
-    width: 30%;
-    font-weight: bolder;
-    font-size: 3rem;
-    color: white; 
-  }
+  // border: 1px solid red;
+  min-width: 50%;
+  // animation: fadeIn 5s;
 
   .contact-us {
     padding: 5px;
@@ -107,7 +126,7 @@ nav {
 
       &:hover {
         opacity: 1;
-        color: #0073b1;
+        text-decoration: underline;
       }
 
       a {

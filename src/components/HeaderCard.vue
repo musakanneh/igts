@@ -56,7 +56,6 @@ body {
 
     article {
       width: 100%;
-      animation: fadeInUp 5s;
     }
 
     p {
