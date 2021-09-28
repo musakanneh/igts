@@ -25,21 +25,11 @@
         </li>
         <li>
           <a href="/about">THE COMPANY</a>
-          <!-- <span class="drop-down-indicator"></span> -->
-          <!-- <ul class="drop-down-cover">
-            <li><a href="">About Us</a></li>
-            <li><a href="">Our Story</a></li>
-          </ul> -->
         </li>
         <li>
           <span class="flex-item">
             <a href="/get-involved">GET INVOLVED</a>
-            <!-- <span class="drop-down-indicator"></span> -->
           </span>
-          <!-- <ul class="drop-down-cover">
-            <li><a href="">Be a Fellow/Developer</a></li>
-            <li><a href="">Employ Our Fellow/Developers</a></li>
-          </ul> -->
         </li>
         <li>
           <a href="/store">STORE</a>
@@ -75,7 +65,6 @@ export default {
 header {
   display: flex;
   background: rgb(2, 32, 60);
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.281);
   position: absolute;
   padding: 1rem 0;
   width: 100%;
