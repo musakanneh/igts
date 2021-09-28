@@ -5,7 +5,7 @@
 
       <section>
         <div>
-          <img src="../assets/back.png" alt="">
+          <img src="../assets/back.png" alt="" />
         </div>
         <section>
           <div class="merchandise-card">
@@ -63,12 +63,13 @@
         </section>
 
         <div>
-          <img src="../assets/forward.png" alt="">
+          <img src="../assets/forward.png" alt="" />
         </div>
       </section>
 
-      <div class="shop-more-btn"><Button :isFullWidth="false" label="Shop More" width="150px"></Button></div>
-
+      <div class="shop-more-btn">
+        <Button :isFullWidth="false" label="Shop More" width="150px"></Button>
+      </div>
     </main>
   </body>
 </template>
@@ -80,7 +81,7 @@ import Button from "@/components/Button.vue";
 export default {
   components: {
     Caption,
-    Button
+    Button,
   },
 };
 </script>
@@ -100,17 +101,16 @@ body {
       color: #3b85fc;
     }
 
-    .shop-more-btn{
+    .shop-more-btn {
       margin-top: 30px;
       text-align: center;
 
       button {
-      border: none;
-      background: #3b85fc;
-      color: white;
-      padding: 5px;
+        border: none;
+        background: #3b85fc;
+        color: white;
+        padding: 5px;
       }
-
     }
 
     section {
@@ -118,7 +118,6 @@ body {
       display: flex;
       margin: auto;
       justify-content: space-between;
-
 
       h2 {
         font-size: 14px;
@@ -160,7 +159,8 @@ body {
 
           p,
           span,
-          h4, .p-name {
+          h4,
+          .p-name {
             text-align: left;
             width: 100%;
             margin-bottom: 5px;

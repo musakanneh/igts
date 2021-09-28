@@ -19,10 +19,10 @@ export default {
 
 <style lang="scss" scoped>
 h1 {
-   font-weight: bolder;
-    font-size: 2rem;
-    color: #02203c;
-    padding: .5rem 0;
-    text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #02203c;
+  padding: 0.5rem 0;
+  text-align: center;
 }
 </style>

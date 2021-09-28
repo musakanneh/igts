@@ -10,59 +10,35 @@
       <section>
         <div>
           <img src="../assets/ED.png" alt="" />
-          <h2>
-            Arthur Wahwehele
-          </h2>
-          <p>
-            Co-Founder & CEO
-          </p>
+          <h2>Arthur Wahwehele</h2>
+          <p>Co-Founder & CEO</p>
         </div>
         <div>
           <img src="../assets/Bako.png" alt="" />
-          <h2>
-            Bako Shaiabu
-          </h2>
-          <p>
-            Co-Founder & CIO
-          </p>
+          <h2>Bako Shaiabu</h2>
+          <p>Co-Founder & CIO</p>
         </div>
         <div>
           <img src="../assets/Musa.png" alt="" />
-          <h2>
-            Musa Kanneh
-          </h2>
-          <p>
-            Co-Founder & CTO
-          </p>
+          <h2>Musa Kanneh</h2>
+          <p>Co-Founder & CTO</p>
         </div>
       </section>
       <section>
         <div>
           <img src="../assets/Boima.png" alt="" />
-          <h2>
-            Boima Konneh
-          </h2>
-          <p>
-            Co-Founder & CFO
-          </p>
+          <h2>Boima Konneh</h2>
+          <p>Co-Founder & CFO</p>
         </div>
         <div>
           <img src="../assets/ian.png" alt="" />
-          <h2>
-            Ian Odhiambo
-          </h2>
-          <p>
-            Senior Systems Engineer
-          </p>
+          <h2>Ian Odhiambo</h2>
+          <p>Systems Engineer</p>
         </div>
         <div>
           <img src="https://via.placeholder.com/300" alt="" />
-          <h2>
-            Ebenezer Davies
-          </h2>
-          <p>
-            Senior Programme Associate
-          </p>
+          <h2>Ebenezer Davies</h2>
+          <p>Programme Associate</p>
         </div>
       </section>
     </main>
@@ -78,28 +54,8 @@ export default {
 
 <style lang="scss" scoped>
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
-    url("../assets/bg.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: auto;
-  position: center;
-  background-size: cover;
-  z-index: 1;
-  text-align: center;
-  animation: fadeIn 5s;
-
   main {
-    position: relative;
-    top: 10vh;
-    background: #fff;
-    width: 90%;
-    border-radius: 10px 10px 0 0;
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    margin-bottom: 10%;
+    margin: 10% 0;
 
     h1 {
       color: #3b85fc;

@@ -25,11 +25,11 @@
         </li>
         <li>
           <a href="/about">THE COMPANY</a>
-          <span class="drop-down-indicator"></span>
-          <ul class="drop-down-cover">
+          <!-- <span class="drop-down-indicator"></span> -->
+          <!-- <ul class="drop-down-cover">
             <li><a href="">About Us</a></li>
             <li><a href="">Our Story</a></li>
-          </ul>
+          </ul> -->
         </li>
         <li>
           <span class="flex-item">
@@ -45,7 +45,7 @@
           <a href="/">STORE</a>
         </li>
         <li>
-          <a href="/">TEAM</a>
+          <a href="/team">TEAM</a>
         </li>
         <li>
           <a href="/">REACH US</a>
