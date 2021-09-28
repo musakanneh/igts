@@ -24,7 +24,7 @@
           <img src="../assets/service.jpg" alt="" />
         </div>
       </div>
-      <div class="offers-sec">
+      <!-- <div class="offers-sec">
         <Caption captions="We Offer The Best Service You Can Get"></Caption>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis
@@ -33,29 +33,27 @@
           adipiscing elit. Venenatis consectetur auctor tortor a. Iaculis id
           dolor et sapien sit. Tincidunt dui pharetra dictumst potenti.
         </p>
-        <br />
-        <br />
         <Button
           :isFullWidth="false"
           label="Explore More"
           width="150px"
         ></Button>
-      </div>
-      <ServiceCard />
+      </div> -->
+      <!-- <ServiceCard /> -->
     </main>
   </body>
 </template>
 
 <script>
 import Button from "@/components/Button.vue";
-import Caption from "@/components/Caption.vue";
-import ServiceCard from "@/components/ServiceCard.vue";
+// import Caption from "@/components/Caption.vue";
+// import ServiceCard from "@/components/ServiceCard.vue";
 export default {
   name: "Services",
   components: {
     Button,
-    Caption,
-    ServiceCard,
+    // Caption,
+    // ServiceCard,
   },
 };
 </script>
@@ -66,27 +64,28 @@ body {
   display: flex;
   flex-direction: column;
   flex: auto;
-  animation: fadeIn 2s;
+  // animation: fadeIn 2s;
 
 
   .offers-sec {
-    padding: 10% 0;
-    text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
-      url("../assets/bg.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: auto;
-    position: center;
-    background-size: cover;
-    z-index: 1;
-    text-align: center;
+    // padding: 10% 0;
+    // text-align: center;
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
+    //   url("../assets/bg.jpeg");
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // margin: auto;
+    // position: center;
+    // background-size: cover;
+    // z-index: 1;
+    // text-align: center;
 
     p {
       width: 50%;
+      border: 1px solid red;
       font-size: 15px;
       line-height: 22px;
-      color: #fff;
+      // color: #fff;
     }
   }
 

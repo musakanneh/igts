@@ -42,14 +42,14 @@ html {
 }
 
 .add-spacing-up-and-down {
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 #app {
   display: flex;
   flex: auto;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   flex-direction: column;
   padding: 0;
   margin: 0;
@@ -58,9 +58,22 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container {
+  width: 1200px;
+  margin: auto;
+  min-height: 100%;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
 .drop-down-indicator {
   border-left: 7px solid transparent;
-  border-top: 7px solid #f37f1b;
+  border-top: 7px solid #6ca714;
   border-right: 7px solid transparent;
   border-bottom: 7px solid transparent;
   margin: 10px 0 0 0;

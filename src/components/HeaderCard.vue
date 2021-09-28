@@ -2,16 +2,14 @@
   <body>
     <main>
       <article>
-        <h1>Internet Generation Technology Solutions</h1>
+        <h1>Innovation & Developers Campus</h1>
         <p>
-          Building 100 software engineers by 2023 through the techaware
-          fellowship program <br />
-          that will use ICT for sustainable development.
+           All you can get and want
         </p>
         <section class="btn-sec">
           <Button
             :isFullWidth="false"
-            label="Explore more"
+            label="Explore More"
             width="150px"
           ></Button>
         </section>
@@ -39,6 +37,7 @@ body {
 
     article {
       width: 100%;
+      text-align: left;
     }
 
     p {
@@ -50,11 +49,9 @@ body {
     }
 
     h1 {
-      font-size: 40px;
-      line-height: 50px;
+      font-size: 30px;
       color: #fbfbfbe0;
-      text-align: center;
-      font-weight: 600;
+      font-weight: bolder;
     }
 
     section {

@@ -1,7 +1,7 @@
 <template>
   <body>
     <main class="add-spacing-up-and-down">
-      <Caption captions="What we offer"></Caption>
+      <Caption captions="What We Offer"></Caption>
       <section>
         <div class="offers">
           <img src="../assets/case.png" alt="" />
@@ -74,6 +74,31 @@ body {
       }
 
       .offers {
+        background-color: rgb(255, 255, 255);
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 50px -10px;
+        box-sizing: border-box;
+        cursor: auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        height: 245px;
+        line-height: 22.85714340209961px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        position: relative;
+        transition-delay: 0s;
+        transition-duration: 0.2s;
+        transition-property: box-shadow;
         text-align: center;
         margin: 0 10px;
         padding: 20px 0;

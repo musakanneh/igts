@@ -1,18 +1,18 @@
 <template>
   <body>
-    <h3>Enter your email to subscribe to our newsletter</h3>
+    <!-- <h3>Enter your email to subscribe to our newsletter</h3> -->
     <main>
-      <input type="text" name="" id="" />
-      <Button :isFullWidth="false" label="Subscribe" width="150px"></Button>
+      <!-- <input type="text" name="" id="" /> -->
+      <!-- <Button :isFullWidth="false" label="Subscribe" width="150px"></Button> -->
     </main>
   </body>
 </template>
 
 <script>
-import Button from "@/components/Button.vue";
+// import Button from "@/components/Button.vue";
 export default {
   components: {
-    Button,
+    // Button,
   },
 };
 </script>

@@ -2,7 +2,7 @@
   <header>
     <div>
       <a class="logo-cover" href="/">
-        <h2 class="logo">IGTS</h2>
+        <h2 class="logo">IDx</h2>
       </a>
     </div>
 
@@ -25,6 +25,11 @@
         </li>
         <li>
           <a href="/about">THE COMPANY</a>
+          <span class="drop-down-indicator"></span>
+          <ul class="drop-down-cover">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Our Story</a></li>
+          </ul>
         </li>
         <li>
           <span class="flex-item">
@@ -70,7 +75,7 @@ export default {
 header {
   display: flex;
   background: rgb(2, 32, 60);
-  // box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.281);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.281);
   position: absolute;
   padding: 1rem 0;
   width: 100%;
@@ -85,7 +90,7 @@ header {
       font-weight: bolder;
       text-decoration: none;
       font-size: 3rem;
-      color: #f37f1b;
+      color: #6ca714;
     }
   }
 
