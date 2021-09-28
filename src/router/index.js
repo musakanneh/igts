@@ -5,6 +5,9 @@ import About from "../views/About";
 import Services from "../views/Services";
 import Work from "../views/Work";
 import Team from "../views/Team";
+import Store from "../views/Store";
+import Contact from "../views/Contact";
+import GetInvolved from "../views/GetInvolved";
 
 Vue.use(VueRouter);
 
@@ -33,6 +36,21 @@ const routes = [
     path: "/team",
     name: "Team",
     component: Team
+  },
+  {
+    path: "/store",
+    name: "Store",
+    component: Store
+  },
+  {
+    path: "/contact",
+    name: "Contact",
+    component: Contact
+  },
+  {
+    path: "/get-involved",
+    name: "GetInvolved",
+    component: GetInvolved
   }
 ];
 

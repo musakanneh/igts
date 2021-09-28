@@ -33,22 +33,22 @@
         </li>
         <li>
           <span class="flex-item">
-            <a href="/">GET INVOLVED</a>
-            <span class="drop-down-indicator"></span>
+            <a href="/get-involved">GET INVOLVED</a>
+            <!-- <span class="drop-down-indicator"></span> -->
           </span>
-          <ul class="drop-down-cover">
+          <!-- <ul class="drop-down-cover">
             <li><a href="">Be a Fellow/Developer</a></li>
             <li><a href="">Employ Our Fellow/Developers</a></li>
-          </ul>
+          </ul> -->
         </li>
         <li>
-          <a href="/">STORE</a>
+          <a href="/store">STORE</a>
         </li>
         <li>
           <a href="/team">TEAM</a>
         </li>
         <li>
-          <a href="/">REACH US</a>
+          <a href="/contact">REACH US</a>
         </li>
       </ul>
     </nav>

@@ -45,6 +45,10 @@ html {
   padding: 6rem 0;
 }
 
+.add-spacing__down{
+  padding-bottom: 6rem;
+}
+
 #app {
   display: flex;
   flex: auto;

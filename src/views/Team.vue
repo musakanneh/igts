@@ -1,13 +1,13 @@
 <template>
   <body>
     <main>
-      <Caption captions="Our Dedicated Team"></Caption>
-      <p>
-        We are a diverse team with different backgrounds but brought together by
-        <br />
-        a shared passion - to make a difference in Liberia!
-      </p>
-      <section>
+      <HeaderTemp
+        content="Our Dedicated Team"
+        text="We are a diverse team with different backgrounds but brought together by a
+      shared passion - to make a difference in Liberia!"
+      >
+      </HeaderTemp>
+      <section class="spacing">
         <div>
           <img src="../assets/ED.png" alt="" />
           <h2>Arthur Wahwehele</h2>
@@ -23,8 +23,6 @@
           <h2>Musa Kanneh</h2>
           <p>Co-Founder & CTO</p>
         </div>
-      </section>
-      <section>
         <div>
           <img src="../assets/Boima.png" alt="" />
           <h2>Boima Konneh</h2>
@@ -46,37 +44,35 @@
 </template>
 
 <script>
-import Caption from "@/components/Caption.vue";
+import HeaderTemp from "@/components/Templates/HeaderTemp.vue";
 export default {
-  components: { Caption },
+  components: {
+    HeaderTemp,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 body {
+  .spacing {
+    padding-bottom: 6rem;
+  }
   main {
-    margin: 10% 0;
-
-    h1 {
-      color: #3b85fc;
-      padding-top: 20px;
-    }
-
     img {
-      width: 60%;
+      width: 80%;
       border-radius: 50%;
     }
 
     section {
-      justify-content: space-between;
-      width: 90%;
-      padding-top: 40px;
-      display: flex;
-      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 30px;
 
       h2 {
-        font-size: 14px;
+        font-size: 16px;
         padding: 10px;
+        font-weight: bolder;
+        color: #02203c;
       }
 
       div {

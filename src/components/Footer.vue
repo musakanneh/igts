@@ -33,20 +33,6 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-// @media only screen and (max-width: 900px) {
-//   main {
-//     width: 90%;
-//     display: block !important;
-//   }
-//   .social-medias {
-//     float: none !important;
-//     width: 70% !important;
-//     i {
-//       margin: 1.5rem 0;
-//       font-size: 40px !important;
-//     }
-//   }
-// }
 main {
   display: flex;
   h3:hover {
